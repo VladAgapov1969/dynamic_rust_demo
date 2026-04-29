@@ -1,0 +1,9 @@
+[package]
+name = "dynamic_rust_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full", "macros", "rt-multi-thread"] }
+indicatif = "0.17"
+colored = "2.1"
